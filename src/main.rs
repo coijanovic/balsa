@@ -74,3 +74,15 @@ fn main() {
         print!("\n")
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_distance() {
+        let e : Emoji = Emoji {color: (0, 0, 0), value: ' '};
+        assert_eq!(e.distance(image::Rgb([0,0,0])), 0f64);
+        assert_eq!(e.distance(image::Rgb([255,255,255])), 441.6729559300637f64);
+    }
+}
