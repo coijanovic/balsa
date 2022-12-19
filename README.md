@@ -6,7 +6,7 @@ This is part of a series of fun little programs I write to learn rust:
 # Balsa
 
 > I wish I could turn my boring old images into *beautiful emoji experiences*!
-> - Albert Einstein (probably)
+> &mdash; Albert Einstein (probably)
 
 Your wish shall be granted, Albert.
 Balsa is here!
