@@ -3,12 +3,16 @@ extern crate clap;
 
 use clap::Parser;
 
-const EMOJI: [Emoji; 5] = [
-    Emoji{color: (255,255,255), value: '🌝'},
-    Emoji{color: (0,0,0), value: '🖤'},
-    Emoji{color: (255,0,0), value: '🍅'},
-    Emoji{color: (0,255,0), value: '🤢'},
-    Emoji{color: (0,0,255), value: '🌊'},
+const EMOJI: [Emoji; 9] = [
+    Emoji{color: (255,255,255), value: '🏐'},
+    Emoji{color: (0,0,0), value: '🌑'},
+    Emoji{color: (255,0,0), value: '🍎'},
+    Emoji{color: (0,255,0), value: '🌿'},
+    Emoji{color: (0,0,255), value: '🧿'},
+    Emoji{color: (255,255,0), value: '🪙'},
+    Emoji{color: (0,255,255), value: '🧊'},
+    Emoji{color: (255,0,255), value: '🧠'},
+    Emoji{color: (255,218,191), value: '🍞'},
 ];
 
 /// Turn images in to their emoji representation
