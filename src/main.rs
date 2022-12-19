@@ -53,11 +53,6 @@ fn main() {
     let img: &image::RgbImage = img.as_rgb8().unwrap();
     let (width, height) = img.dimensions();
 
-    //println!("Pixel at (20,20) is {:?}", img[(20, 20)]);
-
-    //println!("{}", EMOJI[0].distance(img[(20, 20)]));
-
-
     for i in 0..height {
         for j in 0..width {
             let mut best_dist : f64 = f64::MAX; 
