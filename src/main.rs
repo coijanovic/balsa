@@ -6,7 +6,7 @@ use clap::Parser;
 const EMOJI: [Emoji; 5] = [
     Emoji{color: (255,255,255), value: '🌝'},
     Emoji{color: (0,0,0), value: '🖤'},
-    Emoji{color: (255,0,0), value: '😡'},
+    Emoji{color: (255,0,0), value: '🍅'},
     Emoji{color: (0,255,0), value: '🤢'},
     Emoji{color: (0,0,255), value: '🌊'},
 ];
